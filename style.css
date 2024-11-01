@@ -75,3 +75,25 @@ input {
     background-color: #262626; /* Preto suave */
     color: #ffffff;
 }
+/* Parte 3: Botões e Ajuste Final */
+input:focus {
+    border-color: #ff1a1a; /* Borda vermelha mais intensa ao focar */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4c4c; /* Vermelho para o botão */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e60000; /* Vermelho mais escuro ao passar o mouse */
+}
