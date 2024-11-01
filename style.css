@@ -44,3 +44,34 @@ input {
     border-radius: 4px;
     font-size: 14px;
 }
+/* Parte 2: Cores e Espaçamentos */
+body {
+    background-color: #1a1a1a; /* Fundo preto */
+}
+
+.form-container {
+    background-color: #333333; /* Fundo cinza escuro */
+    padding: 25px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #ff4c4c; /* Vermelho */
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+label {
+    color: #cccccc; /* Cinza claro */
+    font-size: 15px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ff4c4c; /* Borda vermelha */
+    background-color: #262626; /* Preto suave */
+    color: #ffffff;
+}
